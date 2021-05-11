@@ -14,9 +14,10 @@ namespace ClassMetotDemo
         {
             Console.WriteLine(musteri.adi+"   isimli musteri Silindi!");
         }
-        public void Listele(Musteri musteri)
+        public void Listele(Musteri musteri1,Musteri musteri2)
         {
-            Console.WriteLine(musteri.adi + " " + musteri.soyadi + " " + musteri.yasi + " " + musteri.Id);
+            Console.WriteLine(musteri1.adi + " " + musteri1.soyadi + " " + musteri1.yasi + " " + musteri1.Id);
+            Console.WriteLine(musteri2.adi + " " + musteri2.soyadi + " " + musteri2.yasi + " " + musteri2.Id);
         }
         
     }

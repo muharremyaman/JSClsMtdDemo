@@ -22,7 +22,7 @@ namespace ClassMetotDemo
 
             musteriManager.Ekle(musteri1);
             musteriManager.Sil(musteri2);
-            musteriManager.Listele(musteri1);
+            musteriManager.Listele(musteri1,musteri2);
 
         }
     }
